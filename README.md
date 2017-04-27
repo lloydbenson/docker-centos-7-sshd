@@ -27,7 +27,7 @@ which will generate a custom password for root
 Note: If you use AUTHORIZED_KEYS ROOT_PASS is ignored.
 
 ```sh
-docker run -dt --priviledged=true --name=sshd lloydbenson/docker-centos-7-sshd
+docker run -dt --privileged=true --name=sshd lloydbenson/docker-centos-7-sshd
 ```
 
 ```sh
